@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast - La Ciencia del Cerebro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Podcast: La Ciencia del Cerebro</h1>
+        <p>Explorando la salud cerebral y su impacto en nuestras vidas.</p>
+        <div class="images">
+            <div class="host">
+                <img src="https://yt3.googleusercontent.com/67tdOeqr09-9t-ady72p8naTa40zKRYWOOzUoyZrPhLGE59psmkIwWV-yrgzTsTTSeO9STc5=s160-c-k-c0x00ffffff-no-rj" alt="Anfitriones del podcast" class="host-image">
+                <p class="source">Fuente: <a href="https://www.youtube.com/@360Podcastbo" target="_blank">360 Podcast</a></p>
+                <button onclick="window.open('https://www.youtube.com/@360Podcastbo', '_blank')">Visitar</button>
+            </div>
+            <div class="guest">
+                <img src="img/Captura de pantalla 2024-12-02 115044.png" alt="Invitada del podcast" class="guest-image">
+                <p class="source">Dra. Alicia Vargas, experta en neurociencia</p>
+                <button onclick="alert('No encontramos redes sociales de la Dra. Alicia Vargas')">Consultar</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="video">
+        <h2>Escucha el Último Episodio</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/cgB-vM2xRMU" title="Podcast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="capitulos">
+        <h2>Capítulos Destacados</h2>
+        <ul>
+            <li><strong>Inicio:</strong> Breve introducción sobre la invitada y el tema central (1:30)</li>
+            <li><strong>Etapas Evolutivas del Cerebro:</strong> Evolución del cerebro en diferentes etapas (4:58)</li>
+            <li><strong>Alimentación:</strong> Importancia de la nutrición (8:54)</li>
+        </ul>
+    </section>
+
+    <section id="form">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Deja tu mensaje aquí" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="cta">
+        <h2>¡Síguenos en Redes Sociales!</h2>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/tu_numero" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Podcast - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
